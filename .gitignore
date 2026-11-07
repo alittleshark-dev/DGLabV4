@@ -1,0 +1,17 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Build
+build/
+out/
+target/
+*.class
+
+# Mac
+.DS_Store
