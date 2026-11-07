@@ -1,11 +1,14 @@
 # DGLab v4
 
+> 本项目部分使用Deepseek开发
+
 > 这是一个 **DGLab v4 版本协议** 的 Java 控制库
 >
 > **警告**：请务必在确保绝对安全的前提下使用本库
 > **!!!在使用前请务必 明确个人承受极限 !!!**
 > 切勿将强度（Intensity）设置**超过个人承受极限**
 > 因使用不当导致的任何身体不适或设备损坏**本项目及开发者不承担任何责任**
+
 
 [![Java Version](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -21,7 +24,15 @@
 
 ### 引入
 
-纯源码结构。将 `src/main/java/com/alittleshark/dglabv4/DGLabV4.java` 复制到你项目对应的包路径下即可。
+#### 直接下载 Jar 包（推荐）
+
+最简单的方式是直接前往本仓库的 [Releases](https://github.com/alittleshark-dev/DGLabV4/releases) 页面，下载最新版本的 `dglabv4.jar`，并将其直接添加到你的项目依赖库（Classpath）中。
+
+#### 拉取源码编译
+
+如果你希望基于源码进行修改或自行编译，可以使用 Git 拉取本仓库：
+
+将 `src/main/java/com/alittleshark/dglabv4/DGLabV4.java` 复制到你项目对应的包路径下即可。
 
 ```bash
 git clone https://github.com/alittleshark-dev/DGLabV4.git
